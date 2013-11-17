@@ -8,8 +8,9 @@ function disable_curl() {
 	return false;
 }
 
-function _disable_curl() {
+function _disable_curl($arg) {
     add_filter('use_curl_transport', 'disable_curl');
+    return $arg;
 }
 
 function _enable_curl() {
