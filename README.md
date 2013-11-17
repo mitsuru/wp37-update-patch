@@ -5,7 +5,7 @@ WordPress3.7で発生する、自動アップデートの問題を回避しま�
 
 
 ## 何をしてるの？
-自動アップデート用のapiの接続する際、curlではSSLの接続がうまくいかないため、curlを一時的に無効にしてsoketのトランスポートにフォールバックさせています。
+自動アップデート用のapiの接続する際、curlではSSLの接続がうまくいかないため、curlを一時的に無効にしてsocketトランスポートにフォールバックさせています。
 
 ## Install
 1. put this plugin under wp-content/plugins.
